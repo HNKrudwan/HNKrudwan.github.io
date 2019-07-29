@@ -11,38 +11,49 @@
                 
                 position:absolute;
                 top:10px;
-                right:202px;
+                right:300px;
                 border:3px groove rgb(55, 148, 87);
                 background-color:rgb(132, 235, 230);
-
+                z-index:1;
         }
         
         #scroll{font-size:68px; 
                 font-family:cursive; 
-                background-color:rgb(242, 164, 193);
                 padding:30px;
                 margin:10px;
                 color:green;
-                border:2px solid;
+                position:absolute;
+                
                 
             
         }
-                
+        #fireworks{
+            float:left;
+            position:absolute;
+            margin:100px;
+            width:10%;
+            
+        }        
+        #text1{position:relative;
+               top:200px;}
         </style>
     </head>
     <body>
     
     <marquee id ="scroll" direction="right">PARTY</marquee>
 
-      
        
-    <button class="button">RSVP</button>
+    <button class="button"><a target="blank" href="https://www.djguide.nl/events.p?language=en" party reservering>RSVP</a></button>
     
-        <h1>You're invited!</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Feu_d%27artifice_-_292.jpg/220px-Feu_d%27artifice_-_292.jpg" id="fireworks">
         
-        <h2>To something!</h2>
+        <h1 id="text3">You're invited!</h1>
         
-        <p>The details:</p>
+        <h2 id="text2">To party agenda July 2019 Netherlands </h2>
+        
+        
+
+        <p id="text1">For more details click here <a target="blank" href="https://www.djguide.nl/events.p?language=en" >Party agenda</a></p>
         <ul>
             <li></li>
         </ul>
